@@ -26,5 +26,5 @@ spec:
       - name: nginx-config
         configMap:
           name: nginx-config
-imagePullSecrets:
-      - name: gcr-key-nginx
+      imagePullSecrets:
+      - name: gcr-key
